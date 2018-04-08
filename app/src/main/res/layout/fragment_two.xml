@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffff00">
+
+    <LinearLayout
+        android:id="@+id/layout_quiz2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Select the elements that are used to make chalk"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <CheckBox
+            android:id="@+id/calcium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcium"
+            android:layout_marginLeft="10dp"/>
+
+        <CheckBox
+            android:id="@+id/carbon_dioxide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carbon dioxide"
+            android:layout_marginLeft="10dp"/>
+
+        <CheckBox
+            android:id="@+id/oxygen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oxygen"
+            android:layout_marginLeft="10dp"/>
+
+        <CheckBox
+            android:id="@+id/hydrogen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hydrogen"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_submit_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginBottom="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="25sp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

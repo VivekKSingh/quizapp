@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF9100">
+
+    <LinearLayout
+        android:id="@+id/layout_quiz5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="What is the lightest existing metal?"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <RadioGroup
+            android:id="@+id/radio_quiz5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="18dp">
+
+            <RadioButton
+                android:id="@+id/quiz5_radioOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Copper"/>
+
+            <RadioButton
+                android:id="@+id/quiz5_radioTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lead" />
+
+            <RadioButton
+                android:id="@+id/quiz5_radioThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aluminium" />
+
+            <RadioButton
+                android:id="@+id/quiz5_radioFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gold" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_submit_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Final Score"
+            android:layout_marginBottom="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="25sp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00ffff">
+
+    <LinearLayout
+        android:id="@+id/layout_quiz1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Who was the first man to fly around the earth with a spaceship?"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <RadioGroup
+            android:id="@+id/radio_quiz1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="18dp">
+
+            <RadioButton
+                android:id="@+id/radioOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Neil Armstrong"/>
+
+            <RadioButton
+                android:id="@+id/radioTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gagarin" />
+
+            <RadioButton
+                android:id="@+id/radioThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="John Glenn" />
+
+            <RadioButton
+                android:id="@+id/radioFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jim Lovell" />
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_submit_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:text="Submit"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="25sp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
